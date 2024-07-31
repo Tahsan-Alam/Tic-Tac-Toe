@@ -167,15 +167,11 @@ button {
 }
 
 /* Media queries for responsiveness */
-
 @media (max-width: 950px) {
     .box {
         grid-template-columns: repeat(3, 15vw);
-        grid-template-rows: repeat(3, 15vw);
-        
-    }
-
-   
+        grid-template-rows: repeat(3, 15vw);     
+    }  
 }
 
 @media (max-width: 500px){
@@ -188,6 +184,9 @@ button {
     }
     .small-box:hover {
         background-color: beige;
+    }
+    .instruction:hover {
+      background-color: beige;
     }
 }
 

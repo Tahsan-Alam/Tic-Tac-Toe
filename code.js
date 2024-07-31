@@ -30,7 +30,7 @@ buttons[9].addEventListener("click", function() {
     else{
         resetGame();
         document.querySelectorAll("p")[1].innerHTML = "";
-        buttons[9].innerHTML = "Start Game";
+        buttons[9].innerHTML = "Start";
     }
     
 });

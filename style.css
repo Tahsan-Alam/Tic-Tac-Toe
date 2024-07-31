@@ -58,7 +58,6 @@ p {
 
 .instruction:hover {
     cursor: pointer;
-    background-color: rgb(139, 115, 115);
 }
 
 button {
@@ -185,9 +184,7 @@ button {
     .small-box:hover {
         background-color: beige;
     }
-    .instruction:hover {
-      background-color: beige;
-    }
+   
 }
 
 

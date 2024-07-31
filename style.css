@@ -23,7 +23,7 @@ p {
     font-size: 7vw;
     border: 2px solid black;
     box-sizing: border-box;
-
+    color: black;
 }
 
 .btn-top{
@@ -62,6 +62,7 @@ p {
 
 button {
     font-size: 2rem; 
+    color: black;
 }
 
 #design{
@@ -183,6 +184,9 @@ button {
     .instruction{
         font-size: 20px;
         width: 120px;
+    }
+    .small-box:hover {
+        background-color: beige;
     }
 }
 

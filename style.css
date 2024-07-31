@@ -16,10 +16,13 @@ p {
 }
 
 .small-box {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: beige;
     font-size: 7vw;
     border: 2px solid black;
+    box-sizing: border-box;
 
 }
 
@@ -87,14 +90,6 @@ button {
 .text{
     margin: 0;
     text-align: center;
-}
-
-
-
-/* Style for player turn */
-.player-turn {
-    font-size: 2rem;
-    margin-top: 22px;
 }
 
 /* New styles for the win lines */

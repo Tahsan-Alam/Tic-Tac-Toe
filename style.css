@@ -58,6 +58,7 @@ p {
 
 .instruction:hover {
     cursor: pointer;
+    background-color: aliceblue;
 }
 
 button {

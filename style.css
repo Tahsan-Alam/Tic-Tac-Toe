@@ -16,9 +16,10 @@ p {
 }
 
 .small-box {
-   
+    text-align: center;
     background-color: beige;
     font-size: 7vw;
+    border: 2px solid black;
 
 }
 
